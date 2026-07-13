@@ -34,8 +34,6 @@ Las tablas principales utilizadas fueron:
 
 ## Dashboard
 
-*(Aquí irá la imagen del dashboard)*
-
 ## Estructura del repositorio
 
 - **Dataset/** → Archivos CSV utilizados en Power BI.
@@ -45,4 +43,5 @@ Las tablas principales utilizadas fueron:
 
 ## Autor
 
-Lauro Gastélum
+Lauro Ivan Perez Gastelum
+
