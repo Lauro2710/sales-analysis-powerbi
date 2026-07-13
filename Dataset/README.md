@@ -1,28 +1,17 @@
-# Conjunto de datos
+# Dataset
 
 ## Descripción
 
-Este proyecto utiliza la base de datos de ejemplo **Classic Models**, ampliamente utilizada para practicar consultas SQL, análisis de datos y visualización en Power BI.
+Esta carpeta contiene los archivos CSV utilizados en Power BI.
 
-La base de datos simula las operaciones de una empresa dedicada a la venta de modelos a escala.
+## Origen de los datos
 
-## Tablas principales
+Los datos provienen de la base de datos de ejemplo **Classic Models**.
 
-- Customers (Clientes)
-- Orders (Pedidos)
-- OrderDetails (Detalle de pedidos)
-- Products (Productos)
-- ProductLines (Líneas de productos)
-- Employees (Empleados)
-- Offices (Oficinas)
-- Payments (Pagos)
+## Proceso
 
-## Proceso de trabajo
+1. Se realizaron consultas SQL en MySQL.
+2. Los resultados se exportaron a archivos CSV.
+3. Los CSV se importaron en Power BI para construir el dashboard.
 
-1. Se realizaron consultas en MySQL para responder diferentes preguntas de negocio.
-2. Los resultados de cada consulta se exportaron a archivos CSV.
-3. Los archivos CSV fueron importados a Power BI para construir el dashboard interactivo.
-
-## Nota
-
-Este repositorio incluye únicamente los datos necesarios para reproducir el análisis realizado en Power BI.
+Cada archivo CSV corresponde a una consulta SQL disponible en la carpeta `SQL`.
