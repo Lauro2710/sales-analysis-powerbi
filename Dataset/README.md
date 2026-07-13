@@ -2,16 +2,21 @@
 
 ## Descripción
 
-Esta carpeta contiene los archivos CSV utilizados en Power BI.
+Esta carpeta contiene los archivos CSV utilizados para construir el dashboard en Power BI.
 
 ## Origen de los datos
 
-Los datos provienen de la base de datos de ejemplo **Classic Models**.
+Los datos provienen de la base de datos de ejemplo **Classic Models**, ampliamente utilizada para practicar SQL, análisis de datos y herramientas de Business Intelligence.
 
-## Proceso
+Fuente:
+https://www.mysqltutorial.org/mysql-sample-database.aspx
+
+## Proceso de preparación
 
 1. Se realizaron consultas SQL en MySQL.
-2. Los resultados se exportaron a archivos CSV.
-3. Los CSV se importaron en Power BI para construir el dashboard.
+2. Los resultados de cada consulta se exportaron a archivos CSV.
+3. Los archivos CSV fueron importados en Power BI para crear el dashboard.
 
-Cada archivo CSV corresponde a una consulta SQL disponible en la carpeta `SQL`.
+## Contenido
+
+Cada archivo CSV corresponde al resultado de una consulta SQL disponible en la carpeta `SQL` de este repositorio.
